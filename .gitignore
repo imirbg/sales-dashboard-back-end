@@ -1,0 +1,33 @@
+# Editors
+*.sublime-*
+.idea
+
+
+# Third-Party
+/vendor
+
+
+# Config
+.env*
+!.env.example
+
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# Temporary Files
+/var/**/*.*
+
+/node_modules
+
+#
+# Legacy Stuff
+#
+
+
+# Include directories with .gitkeep
+!.gitkeep
+
+/src/storage/tmp/twig-caches/*

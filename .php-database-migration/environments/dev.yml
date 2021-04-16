@@ -1,0 +1,11 @@
+connection:
+    host:     127.0.0.1
+    driver:   mysql
+    port:     8889
+    username: root
+    password: 1234
+    database: sales
+    charset:  utf8
+
+changelog: changelog
+default_editor: vim
